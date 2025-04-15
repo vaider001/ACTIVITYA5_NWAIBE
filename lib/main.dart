@@ -38,7 +38,7 @@ class _CoinFlipScreenState extends State<CoinFlipScreen> {
           style: TextStyle(
             fontSize: 30,
             fontWeight: FontWeight.bold,
-            color: const Color.fromARGB(255, 8, 122, 36),
+            color: const Color.fromARGB(255, 1, 29, 172),
           ),
         ),
       ),
@@ -47,7 +47,7 @@ class _CoinFlipScreenState extends State<CoinFlipScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              coinSide == 0 ? 'assets/heads.jpg' : 'assets/tails.jpg',
+              coinSide == 0 ? 'assets/heads.png' : 'assets/tails.png',
               width: 250,
               height: 250,
             ),
